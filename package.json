@@ -1,19 +1,29 @@
 {
   "name": "portfolio",
   "version": "1.0.0",
-  "description": "",
+  "description": "My portfolio",
   "main": "index.js",
   "scripts": {
     "dev": "parcel index.html",
-    "build": "parcel build index.html",
+    "build": "parcel build index.html --no-minify",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "parcel-bundler": "^1.12.4"
+    "cssnano": "^5.1.14",
+    "parcel-bundler": "^1.12.5",
+    "postcss": "^8.4.20"
   },
   "dependencies": {
     "gsap": "^3.7.0"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Babahle/Portfolio.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Babahle/Portfolio/issues"
+  },
+  "homepage": "https://github.com/Babahle/Portfolio#readme"
 }
